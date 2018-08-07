@@ -1,0 +1,110 @@
+.main-wrapper {
+  width: 950px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ddd7d7; }
+  .main-wrapper .logo img {
+    width: 400px; }
+  .main-wrapper .logo {
+    float: left; }
+  .main-wrapper .post-list img {
+    width: 375px; }
+  .main-wrapper .post-list {
+    clear: both; }
+  .main-wrapper nav > a {
+    top: 0;
+    width: 100%;
+    color: #ff0000;
+    padding: 30px 60px;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .main-wrapper nav {
+    float: right;
+    margin-top: 200px;
+    position: relative; }
+  .main-wrapper nav:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: black;
+    bottom: 200%;
+    left: 0; }
+  .main-wrapper nav:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: silver;
+    top: 200%;
+    left: 0; }
+  .main-wrapper .toolbar > input {
+    padding: 15px 32px;
+    text-align: left;
+    display: inline;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #ff0000; }
+  .main-wrapper .toolbar {
+    clear: both;
+    float: right;
+    margin-bottom: 35px; }
+    .main-wrapper .toolbar ::placeholder {
+      color: #ff0000; }
+  .main-wrapper .post-description {
+    color: #d3cfcf; }
+  .main-wrapper h3 {
+    color: #302e89; }
+  .main-wrapper h1,
+  .main-wrapper h4 {
+    color: #ff0000; }
+  .main-wrapper p {
+    color: #4c4747; }
+  .main-wrapper h1,
+  .main-wrapper h4 {
+    text-align: right;
+    text-transform: uppercase;
+    color: #ff0000; }
+  .main-wrapper article {
+    background-color: #fff;
+    width: 375px;
+    height: 700px;
+    padding: 20px; }
+  .main-wrapper #list {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2; }
+  .main-wrapper div > img {
+    width: 950px; }
+  .main-wrapper form div#form_fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .main-wrapper form .name {
+    width: 49.5%;
+    flex-direction: column; }
+  .main-wrapper form input[type=text],
+  .main-wrapper form .e-mail,
+  .main-wrapper form textarea {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box; }
+  .main-wrapper form .button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    float: right; }
+  .main-wrapper form .mass {
+    height: 100px; }
+  .main-wrapper footer > span {
+    color: #fff;
+    font-size: 12px; }
+
+/*# sourceMappingURL=style2.css.map */
