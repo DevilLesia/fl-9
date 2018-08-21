@@ -1,8 +1,8 @@
-const user_login = prompt('Enter your login');
+﻿const user_login = prompt('Enter your login');
 
-if (user_login === 'User') {
-    let password = prompt('Enter your password');
-    if (password === 'SuperUser') {
+if (user_login === 'user') {
+    let password = prompt('enter your password');
+    if (password === 'superUser') {
         let currentHours = new Date().getHours();
         if (currentHours < 20) {
             alert('Good day!');
