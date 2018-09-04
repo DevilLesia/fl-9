@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+::placeholder {
+	color: #bbb;
+}
+
+button {
+	border: 0;
+	background: none;
+	padding: 0;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.cat-todo-list {
+	width: 500px;
+	height: 475px;
+	border: 1px solid #000;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cat-todo-list-header {
+	text-align: center;
+	font-weight: normal;
+}
+
+.cat-todo-list-max-msg {
+	text-align: center;
+	display: none;
+}
+
+.cat-todo-list-add-new {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #000;
+	padding: 10px 0;
+}
+
+.cat-todo-list-add-new-input {
+	flex-grow: 1;
+	margin-right: 10px;
+	border: 1px solid #000;
+	padding: 2px 5px;
+	font-size: 12px;
+}
+
+.todo-cat-list {
+	list-style: none;
+}
+
+.cat-todo-list-list-item {
+	display: flex;
+	align-items: center;
+	cursor: move;
+	margin-bottom: 5px;
+}
+
+.cat-todo-list-footer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex: 1;
+}
+
+.cat-todo-list-paw-img {
+	width: 50px;
+	height: 50px;
+}
